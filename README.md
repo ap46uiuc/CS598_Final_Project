@@ -11,3 +11,5 @@ Original G-BERT paper citation is
 
 Code for the original paper can be found here 
 https://github.com/jshang123/G-Bert/tree/master
+
+torch_geometric==1.0.3 is required. Then you have to install torch_scatter, torch_sparse, torch_cluster, torch_spline_conv for your specific version of pytorch and cuda.
